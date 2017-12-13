@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>用户中心</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div id="login">
+  <div id="top" class="clear">
+    <div class="img">
+      <img src="img/login.png" alt="">
+    </div>
+    <ul class="text clear">
+      <li>
+        <span>语言:</span>
+        <a href="#">简体中文</a>
+        <span>|</span>
+      </li>
+      <li>
+        <span>国家/地区:</span>
+        <a href="#">中国</a>
+        <span>|</span>
+      </li>
+      <li>
+        <a href="#">帮助</a>
+      </li>
+    </ul>
+  </div>
+  <div id="login_bg" class="clear">
+    <div>
+      <form id="form-login">
+        <div class="login_box">
+          <div class="log_input clear">
+            <h4>注册</h4>
+            <p data-change="note"><span>立即登录</span></p>
+          </div>
+          <p class="capion" id="show"><span></span></p>
+          <div class="uname clear">
+            <div></div>
+            <input type="text" placeholder="用户名"  name="uname"/>
+            <div></div>
+          </div>
+          <div class="uname upwd clear">
+            <div></div>
+            <input type="text" placeholder="密码"  name="upwd"/>
+          </div>
+          <div class="uname upwd clear">
+            <input type="text" placeholder="请输入手机号" />
+          </div>
+          <div class="uname  clear">
+            <input type="text" placeholder="请输入身份证"/>
+          </div>
+          <div class="agreenment">
+            <input  type="checkbox">
+            <p>我已阅读并同意 <a href="#">乐视用户协议</a></p>
+          </div>
+          <!--<div class="log_btn">-->
+          <input class="log_btn" type="button" id="btn-login" value="注    册">
+          <!--</div>-->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>用户中心</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div id="login">
+    <div id="top" class="clear">
+      <div class="img">
+        <img src="img/login.png" alt="">
+      </div>
+      <ul class="text clear">
+        <li>
+          <span>语言:</span>
+          <a href="#">简体中文</a>
+          <span>|</span>
+        </li>
+        <li>
+          <span>国家/地区:</span>
+          <a href="#">中国</a>
+          <span>|</span>
+        </li>
+        <li>
+          <a href="#">帮助</a>
+        </li>
+      </ul>
+    </div>
+    <div id="login_bg" class="clear">
+      <div>
+        <form id="form-login">
+          <div class="login_box">
+          <div class="log_input clear">
+              <h4>登录</h4>
+              <p data-change="note"><span>短信验证码登陆</span></p>
+          </div>
+          <p class="capion" id="show"><span></span></p>
+          <div class="uname clear">
+            <div></div>
+            <input type="text" placeholder="邮箱/手机号"  id="uname" name="uname"/>
+            <div></div>
+          </div>
+          <div class="uname upwd clear">
+            <div></div>
+            <input type="text" placeholder="密码" id="upwd" name="upwd"/>
+          </div>
+          <div class="log_check clear">
+            <input type="checkbox"><span>记住登录状态</span>
+            <p><span>重置密码</span></p>
+          </div>
+          <!--<div class="log_btn">-->
+            <input class="log_btn" type="button" id="btn-login" value="登    录">
+          <!--</div>-->
+          <div class="register">
+            <div>
+              <span>从这里出发，开启乐视生态世界</span>
+              <a href="#">立即注册</a>
+            </div>
+            <div class="line clear">
+              <div></div>
+              <span>其他方式登录</span>
+              <div></div>
+            </div>
+            <div class="others clear">
+              <ul class="regi_more clear">
+                <li class="qq"></li>
+                <li class="wx"></li>
+                <li class="wb"></li>
+                <li class="pay"></li>
+                <li class="baidu"></li>
+                <li class="ren"></li>
+              </ul>
+              <a href="#" data-change="spread">展开&gt;</a>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+      <div>
+        <form>
+          <div class="login_box">
+          <div class="log_input clear">
+              <p data-change="back"><span>返回&gt;</span></p>
+          </div>
+          <div class="uname clear">
+            <div></div>
+            <input type="text" placeholder="手机号"/>
+          </div>
+          <div class="uname code clear">
+            <div></div>
+            <input type="text" placeholder="输入验证码"/>
+          </div>
+          <div class="rcv_code clear">
+            <div class="uname">
+              <div></div>
+              <input type="text" placeholder="短信验证"/>
+            </div>
+            <a class="p_code" href="#">获取验证码</a>
+          </div>
+          <div class="log_check">
+            <input type="checkbox"><span>记住登录状态</span>
+          </div>
+          <div class="log_btn">
+            <a href="#">登录</a>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

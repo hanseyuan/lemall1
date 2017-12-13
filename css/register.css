@@ -1,0 +1,186 @@
+/*页面顶部*/
+#top{
+    width:1200px;
+    margin:0 auto;
+}
+#top img{
+    width:120px;
+    height:50px;
+}
+#top .img{
+    float: left;
+    margin-top:50px;
+}
+#top .text{
+    float:right;
+    margin-top:80px;
+    width:310px;
+}
+#top .text li{
+    float:left;
+    margin-right:15px;
+    font-size:15px;
+    color:#ACACA4;
+}
+#top .text li a{
+    color:#ACACA4;
+    text-decoration: underline;
+}
+#top .text li a:hover{
+    color:#419CE3
+}
+/*登录框*/
+#login_bg{
+    width:100%;
+    height:490px;
+    margin-top:10px;
+    background:url("../img/operatbg.jpg") no-repeat center;
+    position: relative;
+}
+#login_bg>div{
+    width:1200px;
+    height:490px;
+    margin:0 auto;
+}
+#login_bg .login_box{
+    height:430px;
+    width:460px;
+    background: white;
+    float:right;
+    margin-top:30px;
+}
+/*登录  短信验证码登录*/
+.log_input{
+    width:380px;
+    height: 40px;
+    margin:8px auto 0 auto;
+}
+.log_input h4, .log_input p{
+    width:110px;
+    height:40px;
+    line-height:40px;
+}
+.log_input h4{
+    color:#333;
+    font-size:18px;
+    float:left;
+}
+.log_input p{
+    color: #529bef;
+    font-size: 14px;
+    float:right;
+    text-align: right;
+    cursor: pointer;
+}
+p.capion{
+    height:22px;
+    width:380px;
+    text-align: left;
+    padding-left:40px;
+    color: #c60000;
+    font-size:13px;
+}
+/*登录用户名和密码框*/
+.uname{
+    height:44px;
+    width:380px;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto 15px auto;
+
+}
+/*雪碧图背景*/
+.uname>div:first-child{
+    float:left;
+    height:18px;
+    width:20px;
+    background:url(../img/login_1.png) no-repeat 0 0;
+    margin-top:13px;
+    margin-left:15px;
+
+}
+.uname>div:last-child{
+    float:left;
+    height:31px;
+    width:33px;
+    background:url(../img/login_2.png) no-repeat 0 0;
+    margin-top:6px;
+    margin-left:30px;
+}
+/*密码框雪碧图*/
+.uname.upwd>div{
+    float:left;
+    height:23px;
+    width:22px;
+    background:url(../img/login_1.png) no-repeat -200px 0;
+    margin-top:10px;
+    margin-left:15px;
+}
+.uname>input{
+    border:0;
+    outline:0;
+    height:42px;
+    width:270px;
+    float: left;
+    margin-left:5px;
+}
+/*单选框*/
+.log_check{
+    width:380px;
+    height: 40px;
+    margin:-15px auto 0 auto;
+    line-height:40px;
+}
+.log_check p{
+    width:150px;
+    height:40px;
+    line-height:40px;
+}
+.log_check>span{
+    color:#333;
+    font-size:12px;
+}
+.log_check p{
+    color: #529bef;
+    font-size: 14px;
+    float:right;
+    text-align: right;
+    cursor: pointer;
+}
+/*注册按钮*/
+.log_btn{
+    height:42px;
+    width: 380px;
+    margin: 0 auto;
+    background:#009DE6;
+    text-align: center;
+    line-height:42px;
+    border:0 solid transparent;
+    outline:none;
+    margin-left:40px;
+    font-size:18px;
+    color: #FFFFFF;
+}
+.log_btn:hover{
+    background: #61B1EF;
+}
+.agreenment{
+    width: 380px;
+    height:10px;
+    margin: -5px auto 20px auto;
+}
+.agreenment input{
+    float: left;
+}
+.agreenment p{
+    font-size:12px;
+    float: left;
+}
+
+.agreenment p a{
+    color: #529bef;
+}
+.agreenment p a:hover{
+    color:#009DE6;
+}
+
+
